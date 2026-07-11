@@ -13,7 +13,7 @@
   "scripts": {
     "build": "npm run clean && webpack",
     "clean": "rimraf ./build ./dist",
-    "deploy": "gh-pages -t -d build",
+    "deploy": "node -e \"require('fs').writeFileSync('build/.nojekyll', '')\" && gh-pages -t -d build",
     "prepublish": "node scripts/prepublish.mjs",
     "prune": "./prune-gh-pages.sh",
     "i18n:push": "tx-push-src scratch-editor interface translations/en.json",
