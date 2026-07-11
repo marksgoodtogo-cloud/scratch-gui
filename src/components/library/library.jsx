@@ -180,7 +180,7 @@ class LibraryComponent extends React.Component {
         ));
     }
     constructKey (data) {
-        return typeof data.name === 'string' ? data.name : data.rawURL;
+        return data.extensionId || (typeof data.name === 'string' ? data.name : data.rawURL);
     }
     scrollToTop () {
         this.filteredDataRef.scrollTop = 0;

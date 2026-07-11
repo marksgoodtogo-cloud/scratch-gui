@@ -152,6 +152,44 @@ export default [
         internetConnectionRequired: true
     },
     {
+        name: (
+            <FormattedMessage
+                defaultMessage="Load TurboWarp Extension"
+                description="Name for a TurboWarp extension URL loader"
+                id="gui.extension.loadTurboWarpExtension.name"
+            />
+        ),
+        extensionId: 'loadTurboWarpExtension',
+        description: (
+            <FormattedMessage
+                defaultMessage="Paste a TurboWarp extension URL to load it."
+                description="Description for loading a TurboWarp extension by URL"
+                id="gui.extension.loadTurboWarpExtension.description"
+            />
+        ),
+        featured: true,
+        promptForExtensionURL: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Load PenguinMod Extension"
+                description="Name for a PenguinMod extension URL loader"
+                id="gui.extension.loadPenguinModExtension.name"
+            />
+        ),
+        extensionId: 'loadPenguinModExtension',
+        description: (
+            <FormattedMessage
+                defaultMessage="Paste a PenguinMod extension URL to load it."
+                description="Description for loading a PenguinMod extension by URL"
+                id="gui.extension.loadPenguinModExtension.description"
+            />
+        ),
+        featured: true,
+        promptForExtensionURL: true
+    },
+    {
         name: 'Makey Makey',
         extensionId: 'makeymakey',
         collaborator: 'JoyLabz',
