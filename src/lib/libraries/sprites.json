@@ -1,31 +1,11 @@
-{
-  "name": "Sprite1",
-  "tags": [
-    "custom"
-  ],
-  "isStage": false,
-  "variables": {},
-  "costumes": [
-    {
-      "assetId": "7439f228074f2900680fd736278a9192",
-      "name": "costume1",
-      "bitmapResolution": 1,
-      "md5ext": "7439f228074f2900680fd736278a9192.svg",
-      "dataFormat": "svg",
-      "rotationCenterX": 47.67898252524472,
-      "rotationCenterY": 49.58132000918121
-    }
-  ],
-  "sounds": [
-    {
-      "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
-      "name": "pop",
-      "dataFormat": "wav",
-      "format": "",
-      "rate": 44100,
-      "sampleCount": 1032,
-      "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
-    }
-  ],
-  "blocks": {}
-}
+"costumes": [
+  {
+    "assetId": "809d9b47347a6af2860e7a3a35bce057",
+    "name": "costume1",
+    "bitmapResolution": 1,
+    "md5ext": "809d9b47347a6af2860e7a3a35bce057.svg",
+    "dataFormat": "svg",
+    "rotationCenterX": 31,
+    "rotationCenterY": 100
+  }
+],
